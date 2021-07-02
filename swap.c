@@ -15,7 +15,7 @@ int swap_max(int arr[], int l, int n){
 int ssort(int arr[], int l){
 	for(int i=0; i<l;i++){
 	swap_max(arr, l, i);}
-	printf("the sorted array is \n|");
+	printf("the sorted array is \n");
 	for(int i=0; i<l;i++)
 	printf(" %i ",arr[i]);
 	printf("\n");
